@@ -10,8 +10,8 @@ export interface IPokemon {
     type_1: string;
     type_2?: string; // Type secondaire optionnel
   };
-  // createdAt: Date;
-  // updatedAt: Date;
+  createdAt: Date;
+  updatedAt: Date;
 }
 
 // Type pour la création (sans _id, dates auto)

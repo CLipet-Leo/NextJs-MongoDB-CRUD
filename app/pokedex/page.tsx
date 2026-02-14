@@ -1,26 +1,26 @@
 import PokemonList from '@/components/custom/PokemonList';
-// import CreatePostForm from '@/components/CreatePostForm';
+// import CreatePostForm from '@/components/custom/CreatePokemonsForm';
 
 /**
- * Page principale affichant les posts
+ * Page principale affichant les pokemons
  */
-export default function PostsPage() {
+export default function PokemonsPage() {
   return (
-    <main className="min-h-screen bg-gray-50 px-4 py-12">
+    <main className="min-h-screen px-4 py-12">
       <div className="mx-auto max-w-7xl">
-        <h1 className="mb-12 text-center text-4xl font-bold text-gray-900">
+        <h1 className="text-foreground mb-12 text-center text-4xl font-bold">
           Pokédex
         </h1>
 
         {/* Formulaire de création */}
         {/* <section className="mb-16">
-          <CreatePostForm />
+          <CreatePokemonsForm />
         </section> */}
 
-        {/* Liste des posts */}
+        {/* Liste des pokemons */}
         <section>
-          <h2 className="mb-6 text-2xl font-semibold text-gray-800">
-            Pokémons publiés
+          <h2 className="text-foreground mb-6 text-2xl font-semibold">
+            Pokémons enregistrés :
           </h2>
           <PokemonList />
         </section>

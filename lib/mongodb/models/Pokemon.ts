@@ -45,7 +45,6 @@ const PokemonSchema = new Schema<IPokemon>(
 // Index pour améliorer les performances de recherche
 PokemonSchema.index({ name: 'text' }); // Recherche full-text
 // PokemonSchema.index({ createdAt: -1 }); // Tri par date décroissante
-// PokemonSchema.index({ published: 1 }); // Filtrage par statut
 
 /**
  * Évite la réinitialisation du modèle en développement (HMR)
