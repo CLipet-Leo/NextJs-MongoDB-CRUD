@@ -1,0 +1,23 @@
+# Dossiers d'environnement
+node_modules/
+.next/
+.vscode/
+.vercel/
+build/
+out/
+coverage/
+dist/
+
+# Fichiers générés
+*.lock
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Fichiers d'environnement
+.env*
+
+# Fichiers Next.js
+.next-sitemap*.xml
+sitemap*.xml
+robots.txt
