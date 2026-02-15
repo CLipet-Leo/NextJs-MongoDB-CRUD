@@ -33,8 +33,8 @@ export function NavBar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <MainVavButton path="/" label="NextJS MongoDB CRUD" />
         <div className="flex space-x-4">
-          <NavButton path="/pokedex" label="Pokédex" />
-          {/* <NavButton path="/about" label="About" /> */}
+          {/* <NavButton path="/pokedex" label="Pokédex" /> */}
+          <NavButton path="/projects" label="Projets" />
         </div>
       </div>
     </nav>

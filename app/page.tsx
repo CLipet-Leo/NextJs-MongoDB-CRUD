@@ -6,7 +6,7 @@ export default function Home() {
           Bienvenue sur le projet NextJS MongoDB CRUD
         </h1>
         <p className="text-foreground/70 text-center text-lg">
-          Utilisez la barre de navigation pour accéder au Pokédex
+          Utilisez la barre de navigation pour accéder aux pages
         </p>
       </div>
     </main>

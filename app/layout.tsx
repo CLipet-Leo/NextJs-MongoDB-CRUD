@@ -1,6 +1,7 @@
 import { NavBar } from '@/components/layout/NavBar';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
+import { Toaster } from 'sonner';
 import './globals.css';
 
 const geistSans = Geist({
@@ -30,6 +31,7 @@ export default function RootLayout({
       >
         <NavBar />
         {children}
+        <Toaster position="top-right" theme="dark" />
       </body>
     </html>
   );
