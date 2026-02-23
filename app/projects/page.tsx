@@ -1,4 +1,4 @@
-import CreateProjectForm from '@/components/custom/CreateProjectForm';
+import CreateProjectDialog from '@/components/custom/CreateProjectDialog';
 import ProjectList from '@/components/custom/ProjectList';
 
 export default function ProjectsPage() {
@@ -10,7 +10,7 @@ export default function ProjectsPage() {
         </h1>
 
         {/* Formulaire de création de projet */}
-        <CreateProjectForm />
+        <CreateProjectDialog />
 
         {/* Liste des projets */}
         <section>
